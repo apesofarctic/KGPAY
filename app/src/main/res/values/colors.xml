@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="greenPrimary">#270270</color>
-    <color name="greenSecondary">#f7b8d2</color>
-    <color name="primaryDarkBlack">#000000</color>
-    <color name="secondaryDarkBlack">#1a1a1a</color>
-    <color name="darkPurple">#55A630</color>
-    <color name="lightPink">#AACC00</color>
-
-
-
+    <!-- Brand palette, mirrored in ui/theme/Color.kt for Compose. Kept here too since the
+         pre-Compose window background / status bar need a plain resource reference. -->
+    <color name="kgpay_primary">#1B5E20</color>
+    <color name="kgpay_primary_dark">#0F3D13</color>
+    <color name="kgpay_accent">#FF7A00</color>
+    <color name="kgpay_background">#F6F8F5</color>
+    <color name="kgpay_surface">#FFFFFF</color>
+    <color name="kgpay_error">#B3261E</color>
 </resources>

@@ -1,16 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.UssdTest3" parent="Theme.MaterialComponents.Light.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/greenPrimary</item>
-        <item name="colorPrimaryVariant">@color/greenPrimary</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/greenSecondary</item>
-        <item name="colorSecondaryVariant">@color/greenSecondary</item>
-        <item name="colorOnSecondary">@color/white</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+    <!-- Compose owns almost all theming (see ui/theme/Theme.kt). This XML theme only
+         needs to exist so the Activity has a window background before Compose draws. -->
+    <style name="Theme.KGPay" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/kgpay_background</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/kgpay_primary</item>
     </style>
 </resources>

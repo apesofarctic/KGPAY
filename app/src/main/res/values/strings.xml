@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">KGPay</string>
-    <string name="Rs">\u20B9</string>
+    <string name="accessibility_service_description">Lets KGPay read and fill in your bank\'s *99# USSD payment screen so you don\'t have to type each step manually. Only active while you are sending money or checking your balance inside KGPay.</string>
 </resources>
